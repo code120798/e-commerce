@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-commerce website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sneakers</title>
+    <link href="static/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="static/css/tablet.css" rel="stylesheet" type="text/css" media="screen and (max-width:800px)">
+    <link href="static/css/phone.css" rel="stylesheet" type="text/css" media="screen and (max-width:530px)">
+    <script src="https://kit.fontawesome.com/ef6c64c6bf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="boxicons.min.css">
+    
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?
+    family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/sneakers.png">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">AIR FORCE</h3>
+            <h3 class="menuItem">JORDEN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderwrapper">
+            <div class="sliderItem">
+                <img src="./img/air.png" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle"> AIR FORCE</br>NEW</br>SEASON</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <btn class="buyButton">BUY NOW!</btn>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
