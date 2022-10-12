@@ -43,7 +43,7 @@
         </div>
     </nav>
     <div class="slider">
-        <div class="sliderwrapper">
+        <div class="sliderWrapper">
             <div class="sliderItem">
                 <img src="./img/air.png" alt="" class="sliderImg">
                 <div class="slideBg"></div>
@@ -103,24 +103,50 @@
             <span class="featureDesc">Contact us through email and social media.</span>
         </div>
     </div>
-    <div class="product">
+    <div class="product" id="product">
         <img src="./img/air.png" alt="" class="productImg">
         <div class="productDetails">
             <h1 class="productTitle">AIR FORCE</h1>
             <h2 class="productPrice">£119</h2>
             <p class="productDesc">You can't stop ageing, but the Air Force 1 'Fresh' gets pretty close. Soft, textured leather helps conceal creasing, plus it's easy to clean. We've swapped woven labels for debossed branding, while the perforated sockliner keeps it airy and breathable. An extra set of laces means you can go from grabbing coffee on the go to playing in the park without thinking twice. Now, there's really no reason not to rock your triple blacks morning 'til night—365.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">7</div>
+                <div class="size">8</div>
+                <div class="size">9</div>
+            </div>
+            <button class="productButton">BUY NOW</button>
         </div>
-        <div class="colors">
-            <div class="color"></div>
-            <div class="color"></div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Full Name</label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label>Mobile Number</label>
+            <input type="text" placeholder="+44" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Door Number/Flat Number" class="payInput">
+            <input type="text" placeholder="Street Name" class="payInput">
+            <input type="text" placeholder="Post Code" class="payInput">
+            <h1 class="payTitle">Card Details</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" width="40" alt="" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm/yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout</button>
+            <span class="Close">X</span>
         </div>
-        <div class="sizes">
-            <div class="size">8</div>
-            <div class="size">9</div>
-            <div class="size">10</div>
-        </div>
-        <button class="productButton">BUY NOW!</button>
     </div>
+
+
+        
     <script src="./static/js/app.js"></script>
 </body>
 </html>
